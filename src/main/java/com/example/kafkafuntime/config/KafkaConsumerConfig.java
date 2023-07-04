@@ -1,4 +1,4 @@
-package com.example.kafkafuntime;
+package com.example.kafkafuntime.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

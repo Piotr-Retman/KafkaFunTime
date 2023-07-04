@@ -1,4 +1,4 @@
-package com.example.kafkafuntime;
+package com.example.kafkafuntime.config;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;
@@ -24,7 +24,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic topic1() {
-        return new NewTopic("baeldung", 1, (short) 1);
+        return new NewTopic("test", 1, (short) 1);
     }
 
 
